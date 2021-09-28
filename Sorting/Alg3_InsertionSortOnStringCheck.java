@@ -35,7 +35,7 @@ Followed by next 2 inputs of their last names, "gray" and "wolverine".
 The output has first 2 lines representing first names arranged in ascending order (lexicographically).
 The next two outputs represent last name of the students arranged in descending order (lexicographically).
  */
-public class Alg3_InsertionSortOnString {
+public class Alg3_InsertionSortOnStringCheck {
     public static void insertSort(String[] arr) {
         for (int i = 1; i < arr.length; i++) {
             String v = arr[i];
