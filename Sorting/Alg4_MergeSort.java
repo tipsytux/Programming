@@ -72,5 +72,5 @@ public class Alg4_MergeSort {
     }
 }
 /*
-Checking autocommit feature
+This should work now
  */
