@@ -1,4 +1,7 @@
+package Searching;
+
 import java.util.Scanner;
+
 /*
 Linear Search Algorithm
 Description
@@ -18,26 +21,26 @@ Sample Output:
 2
 Here the output is 2 because the position of number 9 is 2 from the reverse order as mentioned in the question.
 */
-class LinearSearchAlgorithmInReverse{
-    public static void main(String args[]){
-      Scanner input = new Scanner(System.in);
-      //Declare the array here
-      
-      int count = input.nextInt(); 
-      int[] array = new int[count];
-         for (int i = 0; i < count; i++) {
-           array[i] = input.nextInt();
-       }
-       int key = input.nextInt();
-       input.close();
-      //write your code here
-      int found=0;
-      for(int i=array.length-1;i>=0 && found!=1;i--){
-          if (array[i]==key){
-              found=1;
-              System.out.println(array.length-i-1);
-          }
-      }
-      
-  }
+class Alg1_LinearSearchAlgorithmInReverse {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        //Declare the array here
+
+        int count = input.nextInt();
+        int[] array = new int[count];
+        for (int i = 0; i < count; i++) {
+            array[i] = input.nextInt();
+        }
+        int key = input.nextInt();
+        input.close();
+        //write your code here
+        int found = 0;
+        for (int i = array.length - 1; i >= 0 && found != 1; i--) {
+            if (array[i] == key) {
+                found = 1;
+                System.out.println(array.length - i - 1);
+            }
+        }
+
+    }
 }

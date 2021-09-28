@@ -1,6 +1,8 @@
+package Sorting;
+
 import java.util.Arrays;
 
-public class BubbleSort {
+public class Alg1_BubbleSort {
 
     public static int[] sort(int[] numbers) {
         for (int i = 0; i < numbers.length; i++) {
@@ -10,6 +12,11 @@ public class BubbleSort {
                     swap(j - 1, j, numbers);
                 }
             }
+            System.out.println("Iteration : " + i);
+            for (int num : numbers) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
         }
         return numbers; // returning the final sorted array
     }
@@ -20,8 +27,8 @@ public class BubbleSort {
         array[j] = temp;
     }
 
-    public static void main(String args[]) {
-        int[] randomNumbers = {13, 3242, 23, 2351, 352, 3915, 123, 32, 1, 5, 0};
+    public static void main(String[] args) {
+        int[] randomNumbers = {12, 8, 9, 10, 15, 4, 3, 6, 7};
         int[] sortedNumbers;
 
         sortedNumbers = sort(randomNumbers); // bubble sort

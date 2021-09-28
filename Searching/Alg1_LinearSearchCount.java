@@ -1,3 +1,5 @@
+package Searching;
+
 import java.util.Scanner;
 
 /**
@@ -26,12 +28,12 @@ import java.util.Scanner;
  * 20
  * So in this sample test case, the first input is the size of the array i.e the array has 20 elements. Next 20 inputs are the elements inside the array. The last input i.e. 8 is the key the code should search for. Since in this case, it will take  20 unsuccessful steps (comparing 1, 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19, 20 with 21) for the code to reach the conclusion that 21 does not exist in the array. Thus the output will be 20.
  */
-class LinearSearchCount {
+class Alg1_LinearSearchCount {
     public int getLinearSearchUnsuccessfulComparisonCount(int[] inputArr, int key) {
         // Write your code here
         int count = 0;
-        for (int i = 0; i < inputArr.length; i++) {
-            if (inputArr[i] == key) {
+        for (int num : inputArr) {
+            if (num == key) {
                 return count;
             } else {
                 count++;
@@ -40,11 +42,11 @@ class LinearSearchCount {
         return count;
     }
 
-    public static void main(String args[]) throws Exception {
-        LinearSearchCount bs = new LinearSearchCount();
+    public static void main(String[] args) {
+        Alg1_LinearSearchCount bs = new Alg1_LinearSearchCount();
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
-        int array[] = new int[size];
+        int[] array = new int[size];
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt();
         }

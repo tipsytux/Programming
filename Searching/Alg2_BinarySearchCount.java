@@ -1,4 +1,7 @@
-import java.util.*;
+package Searching;
+
+import java.util.Scanner;
+
 /*
 Number of Unsuccessful Attempts
         Description
@@ -18,37 +21,37 @@ Number of Unsuccessful Attempts
 
         Hint: To calculate the middle index use the recommended formula instead of using the formula used in pseudocode.
  */
-public class BinarySearchCount {
-    public static int search(int[] arr, int left, int right, int num, int count){
+public class Alg2_BinarySearchCount {
+    public static int search(int[] arr, int left, int right, int num, int count) {
 
         //Base condition
-        if(left > right){
+        if (left > right) {
             return count;
         }
 
-        int mid = left + (right - left)/2 ; // (left+right)/2
+        int mid = left + (right - left) / 2; // (left+right)/2
 
-        if(arr[mid] == num){
+        if (arr[mid] == num) {
             //Element was found, no changes.
             return count;
-        }
-        else if ( arr[mid] > num){
-            return search(arr, left, mid-1, num,count+1);
-        }else{
-            return search(arr, mid+1, right, num,count+1);
+        } else if (arr[mid] > num) {
+            return search(arr, left, mid - 1, num, count + 1);
+        } else {
+            return search(arr, mid + 1, right, num, count + 1);
         }
 
     }
+
     public int getBinarySearchUnsuccessfulComparisonCount(int[] inputArr, int key) {
         // Write your code here
-        int count = search(inputArr,0,inputArr.length-1,key,0);
-        return count;
+        return search(inputArr, 0, inputArr.length - 1, key, 0);
     }
-    public static void main(String args[] ) throws Exception {
-        BinarySearchCount bs = new BinarySearchCount();
+
+    public static void main(String[] args) {
+        Alg2_BinarySearchCount bs = new Alg2_BinarySearchCount();
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
-        int array[] = new int[size];
+        int[] array = new int[size];
         for (int i = 0; i < size; i++) {
             array[i] = scanner.nextInt();
         }

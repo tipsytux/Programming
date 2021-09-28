@@ -1,18 +1,20 @@
-public class BinarySearch {
+package Searching;
+
+public class Alg2_BinarySearch {
 
     /**
      * Expectation : Array should be sorted
-     *
+     * <p>
      * if the num is found then print the index
-     *
+     * <p>
      * else print that the number is not found
-     * @param arr
-     * @param left
-     * @param right
-     * @param num
      *
-     * TC : O(logn)
-     *
+     * @param arr   - array
+     * @param left  - left index
+     * @param right - right index
+     * @param num   - the number that we should search
+     *              <p>
+     *              TC : O(logn)
      */
     public static void search(int[] arr, int left, int right, int num){
 

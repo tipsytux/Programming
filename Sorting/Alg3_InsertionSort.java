@@ -1,6 +1,8 @@
+package Sorting;
+
 import java.util.Scanner;
 
-public class InsertionSort {
+public class Alg3_InsertionSort {
     /*
     This is insertion sort
      */

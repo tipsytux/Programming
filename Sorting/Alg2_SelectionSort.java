@@ -1,4 +1,6 @@
-public class SelectionSort {
+package Sorting;
+
+public class Alg2_SelectionSort {
     public static void sort(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
@@ -16,8 +18,9 @@ public class SelectionSort {
 
     static void print(int[] arr) {
         int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
+        for (int a : arr) {
+            System.out.print(a + " ");
+        }
         System.out.println();
     }
 
