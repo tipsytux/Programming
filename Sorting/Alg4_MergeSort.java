@@ -71,6 +71,3 @@ public class Alg4_MergeSort {
         System.out.println(Arrays.toString(sortedNumbers));
     }
 }
-/*
-This is to check if my updates are going in...
- */
