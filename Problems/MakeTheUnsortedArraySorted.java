@@ -70,7 +70,7 @@ import java.util.Scanner;
 public class MakeTheUnsortedArraySorted {
     public static void getMax(int[] array, int min, int max){
         boolean found =false;
-        int localMax = array[0];
+        int localMax = min-1;
         for (int number : array){
             if (number >=min && number<=max){
                 if (localMax<number) {
