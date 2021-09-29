@@ -1,6 +1,8 @@
 # Table of Contents<br>
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
    -- [Find5ThElementInStack.java](https://github.com/cse001/Programming/tree/main/DataStructures/Find5ThElementInStack.java)<br>
+   -- [Paranthesis](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis)<br>
+      -- [Parenthesis1.java](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis/Parenthesis1.java)<br>
    -- [StackExample.java](https://github.com/cse001/Programming/tree/main/DataStructures/StackExample.java)<br>
    -- [Stack_PrintFifthElementFromStart.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack_PrintFifthElementFromStart.java)<br>
    -- [Stack_ReverseAString.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack_ReverseAString.java)<br>
