@@ -33,6 +33,6 @@ public class Find5ThElementInStack {
 
         // Method to print the fifth element from the top of the stack
         static void printFifthElementFromEnd(Stack<Integer> stack) {
-            // Write your code here
+            // Write your
         }
 }
