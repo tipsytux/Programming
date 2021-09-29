@@ -72,5 +72,5 @@ public class Alg4_MergeSort {
     }
 }
 /*
-Checking script run ...
+We are good to go...
  */
