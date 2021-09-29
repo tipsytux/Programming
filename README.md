@@ -1,5 +1,4 @@
 # Table of Contents<br>
-.<br>
 ## [Sorting](https://github.com/cse001/Programming/tree/main/Sorting)<br>
 |   |-- [Alg4_MergeSortReverse.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSortReverse.java)<br>
 |   |-- [Alg4_MergeSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSort.java)<br>
