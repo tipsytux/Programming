@@ -1,15 +1,20 @@
 # Table of Contents
 .
-|-- (README.md)[https://github.com/cse001/Programming/tree/main/README.md]
-|-- (Sorting)[https://github.com/cse001/Programming/tree/main/Sorting]
-|   |-- (Sorting/Alg4_MergeSortReverse.java)[https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSortReverse.java]
-|   |-- (Sorting/Alg4_MergeSort.java)[https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSort.java]
-|   |-- (Sorting/Alg3_InsertionSortOnString.java)[https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSortOnString.java]
-|   |-- (Sorting/Alg2_SelectionSort.java)[https://github.com/cse001/Programming/tree/main/Sorting/Alg2_SelectionSort.java]
-|   |-- (Sorting/Alg1_BubbleSort.java)[https://github.com/cse001/Programming/tree/main/Sorting/Alg1_BubbleSort.java]
-|   |-- (Sorting/Alg3_InsertionSort.java)[https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSort.java]
-|-- (Searching)[https://github.com/cse001/Programming/tree/main/Searching]
-    |-- (Searching/Alg1_LinearSearchAlgorithmInReverse.java)[https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchAlgorithmInReverse.java]
-    |-- (Searching/Alg1_LinearSearchCount.java)[https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchCount.java]
-    |-- (Searching/Alg2_BinarySearch.java)[https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearch.java]
-    |-- (Searching/Alg2_BinarySearchCount.java)[https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearchCount.java]
+|-- README.md
+|-- tempFile
+|-- tempFile2
+|-- tempFile3
+|-- tempReadMe
+|-- test.sh
+|-- Sorting
+|   |-- Alg4_MergeSortReverse.java
+|   |-- Alg4_MergeSort.java
+|   |-- Alg3_InsertionSortOnString.java
+|   |-- Alg2_SelectionSort.java
+|   |-- Alg1_BubbleSort.java
+|   |-- Alg3_InsertionSort.java
+|-- Searching
+    |-- Alg1_LinearSearchAlgorithmInReverse.java
+    |-- Alg1_LinearSearchCount.java
+    |-- Alg2_BinarySearch.java
+    |-- Alg2_BinarySearchCount.java
