@@ -1,6 +1,7 @@
 # Table of Contents
 .
 |-- README.md
+|-- test.sh
 |-- Sorting
 |   |-- Alg4_MergeSortReverse.java
 |   |-- Alg4_MergeSort.java
