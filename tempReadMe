@@ -1,8 +1,9 @@
 .
 |-- ./test.sh
-|-- ./tempFile
-|-- ./tempReadMe
 |-- ./README.md
+|-- ./tempFile
+|-- ./tempFile2
+|-- ./tempReadMe
 |-- ./Sorting
 |   |-- ./Sorting/Alg4_MergeSortReverse.java
 |   |-- ./Sorting/Alg4_MergeSort.java

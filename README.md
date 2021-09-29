@@ -1,8 +1,10 @@
 # Table of Contents
 .
 |-- README.md
-|-- test.sh
 |-- tempFile
+|-- tempFile2
+|-- tempReadMe
+|-- test.sh
 |-- Sorting
 |   |-- Alg4_MergeSortReverse.java
 |   |-- Alg4_MergeSort.java
