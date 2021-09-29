@@ -1,6 +1,6 @@
 # Table of Contents<br>
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
-   -- [Stack.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack.java)<br>
+   -- [StackExample.java](https://github.com/cse001/Programming/tree/main/DataStructures/StackExample.java)<br>
 ## [Problems](https://github.com/cse001/Programming/tree/main/Problems)<br>
    -- [MakeTheUnsortedArraySorted.java](https://github.com/cse001/Programming/tree/main/Problems/MakeTheUnsortedArraySorted.java)<br>
    -- [MergeSortedArrays.java](https://github.com/cse001/Programming/tree/main/Problems/MergeSortedArrays.java)<br>
