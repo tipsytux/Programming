@@ -41,7 +41,7 @@ import java.util.Scanner;
  *
  * Please note that Quick Sort is an unstable sorting algorithm. So, the words with same number of characters may come in a different sequence for different people depending upon the factors outside our control.
  */
-public class Alg4_QuickSortOnNames {
+public class Alg5_QuickSortOnNames {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -9,7 +9,7 @@ package Sorting;
  * Stable : No -- The initial order of elements may or maynot be preserved
  */
 
-public class Alg4_QuickSort {
+public class Alg5_QuickSort {
 
     public static void main(String[] args) {
         int ar[] = {2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 , 20};
