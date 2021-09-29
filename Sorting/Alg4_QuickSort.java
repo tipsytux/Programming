@@ -1,5 +1,11 @@
 package Sorting;
 
+/**
+ * Quick Sort
+ * Best Case : nlogn
+ * Average Case : nlogn
+ * Worst Case : n2
+ */
 public class Alg4_QuickSort {
 
     public static void main(String[] args) {

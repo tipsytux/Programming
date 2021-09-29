@@ -1,7 +1,7 @@
 # Table of Contents<br>
 ## [Sorting](https://github.com/cse001/Programming/tree/main/Sorting)<br>
-   -- [Alg4_QuickSortOnNames.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_QuickSortOnNames.java)<br>
    -- [Alg4_QuickSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_QuickSort.java)<br>
+   -- [Alg4_QuickSortOnNames.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_QuickSortOnNames.java)<br>
    -- [Alg4_MergeSortReverse.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSortReverse.java)<br>
    -- [Alg4_MergeSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSort.java)<br>
    -- [Alg3_InsertionSortOnString.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSortOnString.java)<br>
