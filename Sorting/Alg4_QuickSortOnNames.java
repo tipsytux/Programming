@@ -1,5 +1,5 @@
 package Sorting;
-
+import java.util.Scanner;
 /**
  * Quick Sort
  * Description
@@ -44,12 +44,17 @@ package Sorting;
 public class Alg4_QuickSortOnNames {
 
     public static void main(String[] args) {
-        int ar[] = {10, 7, 8, 9, 1, 5};
-        quickSort(ar, 0, ar.length - 1);
-        printArray(ar);
+        Scanner scanner = new Scanner(System.in);
+        int size = scanner.nextInt();
+        String[] names = new String[size];
+        for (int i=0;i<size;i++){
+            names[i] = scanner.next();
+        }
+        quickSort(names, 0, size - 1);
+        printArray(names);
     }
 
-    public static void quickSort(int[] ar, int start, int end) {
+    public static void quickSort(String[] ar, int start, int end) {
         if (start < end) {
             int p = partition(ar, start, end);
             quickSort(ar, 0, p - 1);
@@ -57,29 +62,27 @@ public class Alg4_QuickSortOnNames {
         }
     }
 
-    public static int partition(int[] ar, int start, int end) {
-        int pivot = ar[end];
+    public static int partition(String [] ar, int start, int end) {
+        int pivot = ar[end].length();
         int i = start;
         for (int j = start; j < end; j++) {
-            if (ar[j] <= pivot) {
-                int temp1 = ar[j];
+            if (ar[j].length() <= pivot) {
+                String  temp1 = ar[j];
                 ar[j] = ar[i];
                 ar[i] = temp1;
                 i++;
             }
         }
-        int temp2 = ar[i];
+        String  temp2 = ar[i];
         ar[i] = ar[end];
         ar[end] = temp2;
-
         return i;
     }
 
-    static void printArray(int arr[])
+    static void printArray(String arr[])
     {
-        int n = arr.length;
-        for (int i=0; i<n; ++i)
-            System.out.print(arr[i]+" ");
-        System.out.println();
+        for (String name : arr){
+            System.out.println(name);
+        }
     }
 }
