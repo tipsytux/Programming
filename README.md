@@ -1,6 +1,7 @@
 # Table of Contents<br>
 ## [Problems](https://github.com/cse001/Programming/tree/main/Problems)<br>
    -- [MakeTheUnsortedArraySorted.java](https://github.com/cse001/Programming/tree/main/Problems/MakeTheUnsortedArraySorted.java)<br>
+   -- [MergeSortedArrays.java](https://github.com/cse001/Programming/tree/main/Problems/MergeSortedArrays.java)<br>
 ## [Searching](https://github.com/cse001/Programming/tree/main/Searching)<br>
    -- [Alg1_LinearSearchAlgorithmInReverse.java](https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchAlgorithmInReverse.java)<br>
    -- [Alg1_LinearSearchCount.java](https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchCount.java)<br>
