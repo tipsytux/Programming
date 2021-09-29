@@ -73,7 +73,9 @@ public class MakeTheUnsortedArraySorted {
         int localMax = array[0];
         for (int number : array){
             if (number >=min && number<=max){
-                localMax = number;
+                if (localMax<number) {
+                    localMax = number;
+                }
                 found = true;
             }
         }
@@ -85,15 +87,21 @@ public class MakeTheUnsortedArraySorted {
         }
     }
     public static int findIncorrectElement(int[] array){
-        for(int i =0;i<array.length;i++){
+        for(int i =1;i<array.length;i++){
             if(array[i]<array[i-1]){
                 return i;
             }
         }
         return -1;
     }
-    public static void makeTheUnsortedArraySorted(){
-        int index = findIncorrectElement()
+    public static void makeTheUnsortedArraySorted(int[] array1,int[] array2){
+        int index = findIncorrectElement(array1);
+        if (index == -1 ){
+            System.out.println("Not Possible");
+        }
+        else{
+            getMax(array2,array1[index-1],array1[index+1]);
+        }
 
     }
     public static void main(String[] args) {
@@ -108,8 +116,6 @@ public class MakeTheUnsortedArraySorted {
         for(int i=0;i<size2;i++){
             array2[i] = scanner.nextInt();
         }
-
-
-
+        makeTheUnsortedArraySorted(array1,array2);
     }
 }
