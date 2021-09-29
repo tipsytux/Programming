@@ -25,9 +25,14 @@ public class Stack_ReverseAString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.next();
+        String rev="";
         Stack<Character> stack = new Stack<Character>();
         for(int i=0;i<string.length();i++){
-            stack.push()
+            stack.push(string.charAt(i));
         }
+        while (!stack.isEmpty()){
+            rev = rev + stack.pop().toString();
+        }
+        System.out.println(rev);
     }
 }
