@@ -3,6 +3,7 @@
    -- [Find5ThElementInStack.java](https://github.com/cse001/Programming/tree/main/DataStructures/Find5ThElementInStack.java)<br>
    -- [StackExample.java](https://github.com/cse001/Programming/tree/main/DataStructures/StackExample.java)<br>
    -- [Stack_PrintFifthElementFromStart.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack_PrintFifthElementFromStart.java)<br>
+   -- [Stack_ReverseAString.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack_ReverseAString.java)<br>
 ## [Problems](https://github.com/cse001/Programming/tree/main/Problems)<br>
    -- [MakeTheUnsortedArraySorted.java](https://github.com/cse001/Programming/tree/main/Problems/MakeTheUnsortedArraySorted.java)<br>
    -- [MergeSortedArrays.java](https://github.com/cse001/Programming/tree/main/Problems/MergeSortedArrays.java)<br>
