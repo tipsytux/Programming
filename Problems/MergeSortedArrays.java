@@ -38,6 +38,11 @@ import java.util.Scanner;
  * So, the descending ordered array would be: 7 6 5 4 3 2 1
  */
 public class MergeSortedArrays {
+    public static int[] mergeBothInDescendingOrder(int[] array1, int[] array2, int size1, int size2){
+        int[] sortedArray = new int[size1+size2];
+        int left = 
+        return sortedArray;
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int size1 = scanner.nextInt();
