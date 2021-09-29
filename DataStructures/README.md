@@ -7,14 +7,14 @@
 
 # Collections : 
 1. List
-   a. ArrayList
-   b. LinkedList
-   c. Vector
-   d. Stack
+   - ArrayList
+   - LinkedList
+   - Vector
+   - Stack
 2. Queue
-   a. Priority Queue
-   b. Deque -> ArrayDeque
+   - Priority Queue
+   - Deque -> ArrayDeque
 3. Set
-    a. HashSet
-    b. LinkedHashSet
-    c. SortedSet -> TreeSet
+    - HashSet
+    - LinkedHashSet
+    - SortedSet -> TreeSet
