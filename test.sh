@@ -1,4 +1,4 @@
-tree -a -I '.git|.idea|out|Programming.iml|temp*' -t -f | sed '$ d' | sed 's/`/|/g' |  sed '$ d' > tempReadMe
+tree -a -I '.git|.idea|out|Programming.iml|temp*|test*' -t -f | sed '$ d' | sed 's/`/|/g' |  sed '$ d' > tempReadMe
 awk 'NF>1{print $NF}' tempReadMe > tempFile
 # sed -i 's/\(.*\)/\(\1\)/' tempFile
 sed -i 's/\.\///g' tempFile
@@ -9,10 +9,10 @@ do
     echo "($LINE)[$linkAddress$LINE]" >> tempFile2
 done
 echo "# Table of Contents" > README.md
-tree -a -I '.git|.idea|out|Programming.iml|temp*' -t | sed '$ d' | sed 's/`/|/g' |  sed '$ d' >> README.md
-awk 'NF>1{print $NF}' README.md > tempFile3
+tree -a -I '.git|.idea|out|Programming.iml|temp*|test*' -t | sed '$ d' | sed 's/`/|/g' |  sed '$ d' >> README.md
+cat README.md | grep -v -i "content" | awk 'NF>1{print $NF}' > tempFile3
 for LINE in $(cat tempFile3)
 do
-    link=$(cat tempFile2 | grep $LINE)
+    link=$(cat tempFile2 | grep -w $LINE | head -1)
     sed -i "s|$LINE|$link|g" README.md
 done

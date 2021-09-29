@@ -1,5 +1,4 @@
 .
-|-- ./test.sh
 |-- ./README.md
 |-- ./Sorting
 |   |-- ./Sorting/Alg4_MergeSortReverse.java
