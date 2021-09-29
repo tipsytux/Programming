@@ -68,9 +68,33 @@ import java.util.Scanner;
  * It is not possible to make array1 sorted from the elements in array2 because all elements in array2 are greater than 13.
  */
 public class MakeTheUnsortedArraySorted {
-    public static int getMax(int[] array, int min, int max){
-        
-        return 0;
+    public static void getMax(int[] array, int min, int max){
+        boolean found =false;
+        int localMax = array[0];
+        for (int number : array){
+            if (number >=min && number<=max){
+                localMax = number;
+                found = true;
+            }
+        }
+        if (found){
+            System.out.println(localMax);
+        }
+        else{
+            System.out.println("Not Possible");
+        }
+    }
+    public static int findIncorrectElement(int[] array){
+        for(int i =0;i<array.length;i++){
+            if(array[i]<array[i-1]){
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void makeTheUnsortedArraySorted(){
+        int index = findIncorrectElement()
+
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
