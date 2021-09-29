@@ -1,16 +1,16 @@
-# Table of Contents
+
 .
-|-- README.md
-|-- test.sh
-|-- Sorting
-|   |-- Alg4_MergeSortReverse.java
-|   |-- Alg4_MergeSort.java
-|   |-- Alg3_InsertionSortOnString.java
-|   |-- Alg2_SelectionSort.java
-|   |-- Alg1_BubbleSort.java
-|   |-- Alg3_InsertionSort.java
-|-- Searching
-    |-- Alg1_LinearSearchAlgorithmInReverse.java
-    |-- Alg1_LinearSearchCount.java
-    |-- Alg2_BinarySearch.java
-    |-- Alg2_BinarySearchCount.java
+|-- ./README.md
+|-- ./test.sh
+|-- ./Sorting
+|   |-- ./Sorting/Alg4_MergeSortReverse.java
+|   |-- ./Sorting/Alg4_MergeSort.java
+|   |-- ./Sorting/Alg3_InsertionSortOnString.java
+|   |-- ./Sorting/Alg2_SelectionSort.java
+|   |-- ./Sorting/Alg1_BubbleSort.java
+|   |-- ./Sorting/Alg3_InsertionSort.java
+|-- ./Searching
+    |-- ./Searching/Alg1_LinearSearchAlgorithmInReverse.java
+    |-- ./Searching/Alg1_LinearSearchCount.java
+    |-- ./Searching/Alg2_BinarySearch.java
+    |-- ./Searching/Alg2_BinarySearchCount.java
