@@ -2,6 +2,10 @@ package Sorting;
 
 import java.util.Arrays;
 
+/**
+ * In_Place : False
+ * Stable : True
+ */
 public class Alg4_MergeSort {
 
     public static int[] sort(int[] randomNumbers) {

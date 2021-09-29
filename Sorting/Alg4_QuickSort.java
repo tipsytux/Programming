@@ -5,7 +5,10 @@ package Sorting;
  * Best Case : nlogn
  * Average Case : nlogn
  * Worst Case : n2
+ * In_Place : Yes
+ * Stable : No -- The initial order of elements may or maynot be preserved
  */
+
 public class Alg4_QuickSort {
 
     public static void main(String[] args) {
