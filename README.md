@@ -8,7 +8,7 @@
 |   |-- [Alg1_BubbleSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg1_BubbleSort.java)<br>
 |   |-- [Alg3_InsertionSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSort.java)<br>
 ## [Searching](https://github.com/cse001/Programming/tree/main/Searching)<br>
-    |-- [Alg1_LinearSearchAlgorithmInReverse.java](https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchAlgorithmInReverse.java)<br>
-    |-- [Alg1_LinearSearchCount.java](https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchCount.java)<br>
-    |-- [Alg2_BinarySearch.java](https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearch.java)<br>
-    |-- [Alg2_BinarySearchCount.java](https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearchCount.java)<br>
+|-- [Alg1_LinearSearchAlgorithmInReverse.java](https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchAlgorithmInReverse.java)<br>
+|-- [Alg1_LinearSearchCount.java](https://github.com/cse001/Programming/tree/main/Searching/Alg1_LinearSearchCount.java)<br>
+|-- [Alg2_BinarySearch.java](https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearch.java)<br>
+|-- [Alg2_BinarySearchCount.java](https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearchCount.java)<br>
