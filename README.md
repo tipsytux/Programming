@@ -2,6 +2,7 @@
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
    -- [Find5ThElementInStack.java](https://github.com/cse001/Programming/tree/main/DataStructures/Find5ThElementInStack.java)<br>
    -- [Paranthesis](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis)<br>
+      -- [MultipleType.java](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis/MultipleType.java)<br>
       -- [Parenthesis1.java](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis/Parenthesis1.java)<br>
       -- [StackBased.java](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis/StackBased.java)<br>
    -- [StackExample.java](https://github.com/cse001/Programming/tree/main/DataStructures/StackExample.java)<br>
