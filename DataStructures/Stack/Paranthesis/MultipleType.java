@@ -1,4 +1,4 @@
-package DataStructures.Paranthesis;
+package DataStructures.Stack.Paranthesis;
 
 import java.util.Stack;
 import java.util.EmptyStackException;

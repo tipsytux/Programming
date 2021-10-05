@@ -1,13 +1,14 @@
 # Table of Contents<br>
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
-   -- [Find5ThElementInStack.java](https://github.com/cse001/Programming/tree/main/DataStructures/Find5ThElementInStack.java)<br>
-   -- [Paranthesis](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis)<br>
-      -- [MultipleType.java](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis/MultipleType.java)<br>
-      -- [Parenthesis1.java](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis/Parenthesis1.java)<br>
-      -- [StackBased.java](https://github.com/cse001/Programming/tree/main/DataStructures/Paranthesis/StackBased.java)<br>
-   -- [StackExample.java](https://github.com/cse001/Programming/tree/main/DataStructures/StackExample.java)<br>
-   -- [Stack_PrintFifthElementFromStart.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack_PrintFifthElementFromStart.java)<br>
-   -- [Stack_ReverseAString.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack_ReverseAString.java)<br>
+   -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)<br>
+       -- Find5ThElementIn[Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack).java<br>
+       -- [Paranthesis](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis)<br>
+          -- [MultipleType.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/MultipleType.java)<br>
+          -- [Parenthesis1.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/Parenthesis1.java)<br>
+          -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Based.java<br>
+       -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Example.java<br>
+       -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_PrintFifthElementFromStart.java<br>
+       -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_ReverseAString.java<br>
 ## [Problems](https://github.com/cse001/Programming/tree/main/Problems)<br>
    -- [MakeTheUnsortedArraySorted.java](https://github.com/cse001/Programming/tree/main/Problems/MakeTheUnsortedArraySorted.java)<br>
    -- [MergeSortedArrays.java](https://github.com/cse001/Programming/tree/main/Problems/MergeSortedArrays.java)<br>

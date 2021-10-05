@@ -1,4 +1,4 @@
-package DataStructures.Paranthesis;
+package DataStructures.Stack.Paranthesis;
 
 public class Parenthesis1 {
     /*

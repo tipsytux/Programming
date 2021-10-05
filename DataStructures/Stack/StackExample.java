@@ -1,4 +1,4 @@
-package DataStructures;
+package DataStructures.Stack;
 
 // Java code for stack implementation
 
