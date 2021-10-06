@@ -20,7 +20,7 @@ public class Test {
         }
         else{
             int i =1;
-            while(i<=5){
+            while(i<=size-5){
                num = queue.remove();
                i++;
             }
