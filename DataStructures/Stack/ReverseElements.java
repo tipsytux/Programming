@@ -35,6 +35,7 @@ public class ReverseElements {
     // Method to reverse the last half of the elements from the bottom of the stack
     static void reverseSecondHalf(Stack<Integer> stack) {
         // Write your code here
-        Stack<Integer> newStack = stack.clone();
+        int size = stack.size();
+
     }
 }
