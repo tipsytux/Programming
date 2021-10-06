@@ -2,6 +2,7 @@
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
    -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)<br>
        -- [BookReading.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/BookReading.java)<br>
+       -- [Contains.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Contains.java)<br>
        -- Find5ThElementIn[Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack).java<br>
        -- [Paranthesis](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis)<br>
           -- [MultipleType.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/MultipleType.java)<br>
@@ -19,11 +20,12 @@
    -- [Alg2_BinarySearch.java](https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearch.java)<br>
    -- [Alg2_BinarySearchCount.java](https://github.com/cse001/Programming/tree/main/Searching/Alg2_BinarySearchCount.java)<br>
 ## [Sorting](https://github.com/cse001/Programming/tree/main/Sorting)<br>
--- [Alg1_BubbleSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg1_BubbleSort.java)<br>
--- [Alg2_SelectionSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg2_SelectionSort.java)<br>
--- [Alg3_InsertionSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSort.java)<br>
--- [Alg3_InsertionSortOnString.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSortOnString.java)<br>
--- [Alg4_MergeSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSort.java)<br>
--- [Alg4_MergeSortReverse.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSortReverse.java)<br>
--- [Alg5_QuickSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg5_QuickSort.java)<br>
--- [Alg5_QuickSortOnNames.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg5_QuickSortOnNames.java)<br>
+   -- [Alg1_BubbleSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg1_BubbleSort.java)<br>
+   -- [Alg2_SelectionSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg2_SelectionSort.java)<br>
+   -- [Alg3_InsertionSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSort.java)<br>
+   -- [Alg3_InsertionSortOnString.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg3_InsertionSortOnString.java)<br>
+   -- [Alg4_MergeSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSort.java)<br>
+   -- [Alg4_MergeSortReverse.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSortReverse.java)<br>
+   -- [Alg5_QuickSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg5_QuickSort.java)<br>
+   -- [Alg5_QuickSortOnNames.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg5_QuickSortOnNames.java)<br>
+## [Test.java](https://github.com/cse001/Programming/tree/main/Test.java)<br>
