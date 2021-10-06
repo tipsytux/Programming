@@ -11,6 +11,7 @@ public class SortStack {
         while (n-- > 0)
             stack.push(s.nextInt());
         sort(stack);
+        System.out.println(stack);
     }
 
     // Method to sort the elements of the stack in ascending order
@@ -31,6 +32,5 @@ public class SortStack {
             sortedInsert(stack,value);
             stack.push(temp);
         }
-
     }
 }
