@@ -7,8 +7,20 @@ public class Contains {
 
     public static Boolean contains(Stack<Integer> sequence1, Stack<Integer> sequence2) {
         // This block will be filled by the student
-        
-        return false;
+        while(!sequence1.isEmpty()){
+            Integer num1 = sequence1.pop();
+            boolean found = false;
+            while(!sequence2.isEmpty() && !found){
+                Integer num2 = sequence2.pop();
+                if (num1 == num2){
+                    found = true;
+                }
+            }
+            if(sequence2.isEmpty() && !found){
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
