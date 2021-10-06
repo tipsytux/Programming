@@ -2,20 +2,18 @@ import java.util.*;
 
 public class Test {
 
-    public static void main(String[] args) {
-        Stack<Character> stack=new Stack<>();
-        Scanner in=new Scanner(System.in);
-        String inputString=in.nextLine();
-        for(int k=1;k<inputString.length()-1;k++) {
-            stack.push(inputString.charAt(k+1));
-            if(inputString.charAt(k+1)==')'&& !stack.isEmpty())
-                stack.pop();
-            if(inputString.charAt(k-1)=='(' && !stack.isEmpty())
-                stack.pop();
-        }
-        while (!stack.isEmpty()){
-            System.out.print(stack.peek());
-            stack.pop();
-        }
+    public static void main(String arg[]) {
+        Queue<Character> q=new LinkedList<>();
+        System.out.println(q.isEmpty());
+        q.add('a');
+        q.add('b');
+        q.add('c');
+        q.add('d');
+        System.out.println(q);
+        System.out.println(q.size());
+        System.out.println(q.peek());
+        System.out.println(q.remove());
+        System.out.println(q);
+        System.out.println(q.isEmpty());
     }
 }
