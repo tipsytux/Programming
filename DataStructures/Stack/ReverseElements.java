@@ -1,5 +1,8 @@
 package DataStructures.Stack;
 import java.util.*;
+
+import static java.lang.Math.floor;
+
 /**
  * Description
  * You are given a stack with n integers.
@@ -35,7 +38,16 @@ public class ReverseElements {
     // Method to reverse the last half of the elements from the bottom of the stack
     static void reverseSecondHalf(Stack<Integer> stack) {
         // Write your code here
-        int size = stack.size();
-
+        int size = (int) floor(stack.size()/2);
+        Stack<Integer> newStack = new Stack<>();
+        int i =1;
+        while(i<=size){
+            newStack.push(stack.pop());
+            i++;
+        }
+        while(!newStack.isEmpty()){
+            stack.push(newStack.pop());
+        }
+        System.out.println(stack);
     }
 }
