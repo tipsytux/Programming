@@ -45,8 +45,12 @@ public class ReverseElements {
             newStack.push(stack.pop());
             i++;
         }
+        Stack<Integer> newStack2 = new Stack<>();
         while(!newStack.isEmpty()){
-            stack.push(newStack.pop());
+            newStack2.push(newStack.pop());
+        }
+        while(!newStack2.isEmpty()){
+            stack.push(newStack2.pop());
         }
         System.out.println(stack);
     }

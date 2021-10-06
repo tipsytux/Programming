@@ -9,6 +9,7 @@
           -- [Parenthesis1.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/Parenthesis1.java)<br>
           -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Based.java<br>
        -- [ReverseElements.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/ReverseElements.java)<br>
+       -- Sort[Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack).java<br>
        -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Example.java<br>
        -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_PrintFifthElementFromStart.java<br>
        -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_ReverseAString.java<br>
