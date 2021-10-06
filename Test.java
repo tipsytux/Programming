@@ -1,32 +1,30 @@
 import java.util.*;
 
 public class Test {
-
-    public static void main(String[] args) {
-        Queue numbers = new LinkedList();
-        List(numbers);
-
-        // Write your code here
-        // You should only add some numbers, dequeue, or peek to change the elements in the queue
-        // so that the queue becomes [1,4,9,14,15]
-        while(!numbers.isEmpty()){
-            numbers.remove();
-        }
-        numbers.add(1);
-        numbers.add(4);
-        numbers.add(9);
-        numbers.add(14);
-        numbers.add(15);
-        System.out.println(numbers);
+    public static void main(String args[]) {
+        Queue<Integer> queue = new LinkedList<Integer>();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        while (n-- > 0)
+            queue.add(s.nextInt());
+        printFifthElementFromStart(queue);
     }
 
-    public static void List(Queue numbers) {
-        int i = 0;
-        while(i <= 12) {
-            if(i%2==0) {
-                numbers.add(i);
+    // Method to print the fifth element from the head of the queue
+    static void printFifthElementFromStart(Queue<Integer> queue) {
+        // Write your code here
+        int size = queue.size();
+        int num=0;
+        if(size<5){
+            System.out.println("There are not enough elements in the queue");
+        }
+        else{
+            int i =1;
+            while(i<=5){
+               num = queue.remove();
+               i++;
             }
-            i++;
+            System.out.println(num);
         }
     }
 }
