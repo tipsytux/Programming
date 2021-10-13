@@ -30,7 +30,7 @@ public class Anagrams{
         //Write your code here
         arrange(ch1);
         arrange(ch2);
-        if(ch1.equals(ch2)){
+        if(Arrays.equals(ch1,ch2)){
             return true;
         }
         return false;
