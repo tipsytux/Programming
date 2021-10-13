@@ -16,7 +16,12 @@ class Test {
 
         for(int i:arr)
         {
-            
+            if(boardingPass.containsKey(i)){
+                System.out.println(boardingPass.get(i));
+            }
+            else{
+                boardingPass.put(i,Integer.toString(i));
+            }
         }
     }
 }
