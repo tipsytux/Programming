@@ -27,13 +27,18 @@ public class Anagrams{
     public static boolean check(String str1, String str2){
         char[] ch1 = str1.toLowerCase().toCharArray();
         char[] ch2 = str2.toLowerCase().toCharArray();
-        boolean retval = false;
         //Write your code here
-        return  retval;
+        arrange(ch1);
+        arrange(ch2);
+        if(ch1.equals(ch2)){
+            return true;
+        }
+        return false;
     }
     //Method to sort the character array
     public static void arrange(char[] ch){
         //Write your code here
+        Arrays.sort(ch);
     }
 
     public static void main(String[] x){
