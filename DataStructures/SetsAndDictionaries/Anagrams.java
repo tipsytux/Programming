@@ -57,6 +57,7 @@ public class Anagrams{
         for (String k : map.keySet()){
 
             if(check(k,map.get(k))){
+            if(check(k,map.get(k))){
                 found = true;
                 System.out.println(k + " : " + map.get(k));
             }
@@ -65,4 +66,4 @@ public class Anagrams{
             System.out.println("false");
         }
     }
-}
+}}
