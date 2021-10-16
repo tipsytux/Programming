@@ -58,14 +58,21 @@ public class SymmetricPairs {
         HashMap<Integer,Integer> hashMap = new HashMap<>();
         Integer firstOne;
         Integer secondOne;
+        int count = 0;
         for(int i=0;i<arr.length;i++){
             firstOne = arr[i][0];
             secondOne = arr[i][1];
             if (hashMap.containsKey(secondOne)){
                 if(hashMap.get(secondOne)==firstOne){
-                    System.out.println(firstOne + "," + secondOne);
+                    System.out.println(secondOne + " " + firstOne);
+                    count++;
                 }
+            }else{
+                hashMap.put(firstOne,secondOne);
             }
+        }
+        if (count==0){
+            System.out.println("No Symmetric pair");
         }
 
     }
