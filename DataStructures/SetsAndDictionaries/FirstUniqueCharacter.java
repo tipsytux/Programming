@@ -43,6 +43,12 @@ public class FirstUniqueCharacter {
             }
         }
         char firstUniqueCharacter = getFirstUniqueCharacter(hashMap);
+        if(firstUniqueCharacter!='-'){
+            System.out.println(firstUniqueCharacter);
+        }
+        else{
+            System.out.println("-1");
+        }
     }
 
 }
