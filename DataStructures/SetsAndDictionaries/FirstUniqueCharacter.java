@@ -17,6 +17,14 @@ import java.util.Scanner;
  * Print the first unique character of the string or -1 if no unique character is found.
  */
 public class FirstUniqueCharacter {
+    public static char getFirstUniqueCharacter(Map hashMap){
+        for(Object ch : hashMap.keySet()){
+            if(hashMap.get(ch).equals(1)){
+                return ch.toString().toCharArray()[0];
+            }
+        }
+        return '-';
+    }
     public static void main(String arg[]) {
 
         Scanner in = new Scanner(System.in);
@@ -34,6 +42,7 @@ public class FirstUniqueCharacter {
                 hashMap.put(ch,1);
             }
         }
+        char firstUniqueCharacter = getFirstUniqueCharacter(hashMap);
     }
 
 }
