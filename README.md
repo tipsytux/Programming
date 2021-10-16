@@ -4,6 +4,7 @@
       -- [ToDoList.java](https://github.com/cse001/Programming/tree/main/DataStructures/Queue/ToDoList.java)<br>
    -- [SetsAndDictionaries](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries)<br>
       -- [Anagrams.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/Anagrams.java)<br>
+      -- [FirstUniqueCharacter.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/FirstUniqueCharacter.java)<br>
       -- [SymmetricPairs.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/SymmetricPairs.java)<br>
    -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)<br>
        -- [BookReading.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/BookReading.java)<br>
