@@ -2,33 +2,36 @@ import java.util.*;
 
 class Source {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        // creating a HashSet named "hashSet"
-        Set<Integer> hashSet = new HashSet<Integer>();
-        for (int i = 0; i < n; i++) {
-            int a = in.nextInt();
-            int b = in.nextInt();
-            // fill the switch cases below
-            switch (a) {
-                case 1:
-                    // Write your code to add the input value b to the hashSet
-                    hashSet.add(b);
-                    break;
-                case 2:
-                    // If hashSet contains b, then print true. Otherwise, print false
-                    if(hashSet.contains(b)){
-                        System.out.println(true);
-                    }
-                    else{
-                        System.out.println(false);
-                    }
-                    break;
-                case 3:
-                    // Write your code here to remove the element b from the hashSet
-                    hashSet.remove(b);
-                    break;
-            }
+        int[] array = new int[10];
+        array[0]=5;
+        array[1]= 8;
+        array[2]=4;
+        array[3]=4;
+        array[4]=7;
+        array[5]=6;
+        array[6]=2;
+        array[7]=6;
+        array[8]= 7;
+        array[9]=3;
+        method(array);
+    }
+    public static void method(int[]  array ){
+        int count = 0,n = array.length;
+
+        HashSet<Integer> hashSet = new HashSet<Integer>();
+
+        for (int i = 0; i < n; i++)
+            hashSet.add(array[i]);
+
+        int currentElement = array[0];
+
+        while (hashSet.contains(currentElement) == true) {
+
+            count++;
+
+            currentElement--;
         }
+
+        System.out.println(count);
     }
 }
