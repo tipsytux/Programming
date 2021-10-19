@@ -3,7 +3,17 @@ public class Source{
     //Method to print distinct values
     public static void printValues(Map<Integer,String> map){
         //Write your code here
-        
+        LinkedHashMap<Integer,String> distinct = new LinkedHashMap<>();
+        Integer i = 0;
+        for (String value : map.values()){
+            if(!distinct.containsValue(value)){
+                distinct.put(i,value);
+                i++;
+            }
+        }
+        for (String value : distinct.values()){
+            System.out.print(value+" ");
+        }
     }
 
     public static void main(String[] x){
