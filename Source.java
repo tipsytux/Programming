@@ -31,7 +31,7 @@ class Source {
             }
             temp = current;
         }
-        if(size == hashSet.size()){
+        if(size == hashSet.size() && n!=0){
             System.out.println(true);
         }
         else{
