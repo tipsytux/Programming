@@ -13,7 +13,13 @@ class Source {
             array[i] = in.nextInt();
         }
         // Write your code here
-        HashSet
+        TreeSet hashSet = new TreeSet();
+        for (int a : array){
+            hashSet.add(a);
+        }
+        for (Object a : hashSet){
+            System.out.println(a);
+        }
 
     }
 }
