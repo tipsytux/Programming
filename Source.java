@@ -1,32 +1,58 @@
 import java.util.*;
-public class Source{
-    //Method to print distinct values
-    public static void printValues(Map<Integer,String> map){
-        //Write your code here
-        LinkedHashMap<Integer,String> distinct = new LinkedHashMap<>();
-        Integer i = 0;
-        for (String value : map.values()){
-            if(!distinct.containsValue(value)){
-                distinct.put(i,value);
-                i++;
-            }
-        }
-        for (String value : distinct.values()){
-            System.out.print(value+" ");
-        }
+class Node{
+    int data;
+    Node left,right;
+
+    Node(int value) {
+        data = value;
+        left = right = null;
+    }
+}
+
+class Tree{
+    Node root;
+
+    Tree() {
+        root = null;
     }
 
-    public static void main(String[] x){
-        Map<Integer,String> map = new HashMap<>();
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int key;
-        String value;
-        for(int i = 1; i <= num; i++){
-            key = sc.nextInt();
-            value = sc.next();
-            map.put(key,value);
+    // Method to construct a binary tree from the given array (Do not edit the code given below)
+    public Node insertNode(int[] elementsArr, Node node, int i){
+        if(i < elementsArr.length){
+            node = new Node(elementsArr[i]);
+            node.left = insertNode(elementsArr,node.left,2 * i + 1);
+            node.right = insertNode(elementsArr,node.right,2 * i + 2);
         }
-        printValues(map);
+        return node;
+    }
+
+    // Method to print nodes that are multiple of root node
+    public void printNodes(Node node){
+        // Write your code here
+    }
+}
+
+// WARNING: Do not edit the code given below, otherwise the test cases might fail
+class Source{
+    public static void main(String[] x){
+        Tree tree = new Tree();
+
+        Scanner sc = new Scanner(System.in);
+
+        int size;
+        size = sc.nextInt();
+
+        if(size<= 0){
+            System.out.println("Size should be a positive integer");
+        }
+
+        else{
+            int[] elementsArr = new int[size];
+            for(int i = 0; i < size; i++){
+                elementsArr[i] = sc.nextInt();
+            }
+            tree.root = tree.insertNode(elementsArr,tree.root,0);
+            tree.printNodes(tree.root);
+        }
     }
 }
