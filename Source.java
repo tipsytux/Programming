@@ -23,11 +23,20 @@ class Source {
         int current=0;
         for (Object a : hashSet){
             current = Integer.parseInt(a.toString());
-            size = size + current - temp;
+            if(size==0){
+                size = 1;
+            }
+            else{
+                size = size + current - temp;
+            }
             temp = current;
         }
-        System.out.println(size);
-        System.out.println(hashSet.size());
+        if(size == hashSet.size()){
+            System.out.println(true);
+        }
+        else{
+            System.out.println(false);
+        }
 
     }
 }
