@@ -17,9 +17,17 @@ class Source {
         for (int a : array){
             hashSet.add(a);
         }
+
+        int size = 0;
+        int temp=0;
+        int current=0;
         for (Object a : hashSet){
-            System.out.println(a);
+            current = Integer.parseInt(a.toString());
+            size = size + current - temp;
+            temp = current;
         }
+        System.out.println(size);
+        System.out.println(hashSet.size());
 
     }
 }
