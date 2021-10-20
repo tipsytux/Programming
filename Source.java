@@ -86,7 +86,23 @@ class BinaryTree
 
     Node ArrayToBST(int arr[], int start, int end) {
         // Write logic to convert the array representing Binary Tree to Binary Search Tree
-        
+        if (start > end) {
+            return null;
+        }
+
+        /* Get the middle element and make it root */
+        int mid = (start + end) / 2;
+        Node node = new Node(arr[mid]);
+
+        /* Recursively construct the left subtree and make it
+         left child of root */
+        node.leftchild = ArrayToBST(arr, start, mid - 1);
+
+        /* Recursively construct the right subtree and make it
+         right child of root */
+        node.rightchild = ArrayToBST(arr, mid + 1, end);
+
+        return node;
     }
 }
 class Source{
