@@ -50,7 +50,13 @@ class BinaryTree
     int sumBinaryTree(Node node)
     {
         // Write the logic to recursively create Binary Tree consisting of sum of all its children
-        
+        if(node.leftchild!=null){
+            node.value=node.value+node.leftchild.value;
+        }
+        if(node.rightchild!=null){
+            node.value= node.value + node.rightchild.value;
+        }
+        return node.value;
     }
 
     void printPostorder(Node node)
@@ -80,6 +86,7 @@ class BinaryTree
 
     Node ArrayToBST(int arr[], int start, int end) {
         // Write logic to convert the array representing Binary Tree to Binary Search Tree
+        
     }
 }
 class Source{
