@@ -7,18 +7,20 @@
       -- [FirstUniqueCharacter.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/FirstUniqueCharacter.java)<br>
       -- [SymmetricPairs.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/SymmetricPairs.java)<br>
    -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)<br>
-       -- [BookReading.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/BookReading.java)<br>
-       -- [Contains.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Contains.java)<br>
-       -- Find5ThElementIn[Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack).java<br>
-       -- [Paranthesis](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis)<br>
-          -- [MultipleType.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/MultipleType.java)<br>
-          -- [Parenthesis1.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/Parenthesis1.java)<br>
-          -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Based.java<br>
-       -- [ReverseElements.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/ReverseElements.java)<br>
-       -- Sort[Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack).java<br>
-       -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Example.java<br>
-       -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_PrintFifthElementFromStart.java<br>
-       -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_ReverseAString.java<br>
+      -- [BookReading.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/BookReading.java)<br>
+      -- [Contains.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Contains.java)<br>
+      -- Find5ThElementIn[Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack).java<br>
+      -- [Paranthesis](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis)<br>
+         -- [MultipleType.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/MultipleType.java)<br>
+         -- [Parenthesis1.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Paranthesis/Parenthesis1.java)<br>
+         -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Based.java<br>
+      -- [ReverseElements.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/ReverseElements.java)<br>
+      -- Sort[Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack).java<br>
+      -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)Example.java<br>
+      -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_PrintFifthElementFromStart.java<br>
+      -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)_ReverseAString.java<br>
+   -- [Trees](https://github.com/cse001/Programming/tree/main/DataStructures/Trees)<br>
+       -- [BST.java](https://github.com/cse001/Programming/tree/main/DataStructures/Trees/BST.java)<br>
 ## [Problems](https://github.com/cse001/Programming/tree/main/Problems)<br>
    -- [MakeTheUnsortedArraySorted.java](https://github.com/cse001/Programming/tree/main/Problems/MakeTheUnsortedArraySorted.java)<br>
    -- [MergeSortedArrays.java](https://github.com/cse001/Programming/tree/main/Problems/MergeSortedArrays.java)<br>

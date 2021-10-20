@@ -1,3 +1,30 @@
+package DataStructures.Trees;
+/**
+ * Balanced BST
+ * Description
+ * You have already written the pseudo-code for the similar problem in the
+ * ‘Practice Questions’ segment. It is now time to write the code!
+ * Given a binary tree, construct a balanced binary search tree consisting of the sum of each node and its children
+ * (Note: All its children and not immediate children). The output should be the postOrder traversal of the new binary search tree.
+ * Example:
+ * Sample Input:
+  * 6
+  * 6 10 20 1 51 43
+  * 1 10 6 20 43 51
+  * Sample Output:
+  * 20 6 51 131 94 36
+  * Sample Input:
+  * 5
+  * 40 60 30 20 50
+  * 50 20 30 60 40
+  * Sample Output:
+  * 100 40 200 150 130
+  * In the input, the first value 6 is the size of the tree.
+ * The values in the second line correspond to the inorder traversal of the given binary tree,
+ * and the last line corresponds to the pre-order traversal of the given binary tree.
+  * The output is the post-order traversal of the new binary search tree that is supposed to be constructed with node values separated by spaces.
+ */
+
 import java.util.Scanner;
 import java.util.Arrays;
 class Node
@@ -110,7 +137,7 @@ class BinaryTree
         return node;
     }
 }
-class Source{
+class BST{
 
     // driver program to test above functions
     public static void main(String args[])
