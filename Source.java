@@ -11,21 +11,22 @@ public class Source{
                 i++;
             }
         }
-        class Source{
-            public static void main(String[] x){
         for (String value : distinct.values()){
             System.out.print(value+" ");
-            public static void main(String[] x){
-                Map<Integer,String> map = new HashMap<>();
-                Scanner sc = new Scanner(System.in);
-                int num = sc.nextInt();
-                int key;
-                String value;
-                for(int i = 1; i <= num; i++){
-                    key = sc.nextInt();
-                    value = sc.next();
-                    map.put(key,value);
-                }
-                printValues(map);
-            }
         }
+    }
+
+    public static void main(String[] x){
+        Map<Integer,String> map = new HashMap<>();
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int key;
+        String value;
+        for(int i = 1; i <= num; i++){
+            key = sc.nextInt();
+            value = sc.next();
+            map.put(key,value);
+        }
+        printValues(map);
+    }
+}
