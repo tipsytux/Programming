@@ -1,6 +1,7 @@
 # Table of Contents<br>
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
    -- [Graphs](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs)<br>
+      -- [AllPaths.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/AllPaths.java)<br>
       -- [GraphIsTree.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/GraphIsTree.java)<br>
    -- [Queue](https://github.com/cse001/Programming/tree/main/DataStructures/Queue)<br>
       -- [ToDoList.java](https://github.com/cse001/Programming/tree/main/DataStructures/Queue/ToDoList.java)<br>
