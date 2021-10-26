@@ -105,9 +105,10 @@ public class Source {
         int vertices = scanner.nextInt();
         // Create a sample graph
         Source g = new Source(vertices);
-        for(int i=0;i<vertices;i++){
+        for(int i=0;i<=vertices;i++){
             List<Integer> neighbours = new ArrayList<>();
-            String in = scanner.delimiter("\n");
+            String in = scanner.nextLine();
+
             System.out.println(in);
         }
 //        g.addEdge(0, 1);
