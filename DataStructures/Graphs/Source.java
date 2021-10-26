@@ -90,7 +90,7 @@ public class Source {
     {
 
         if (u.equals(d)) {
-            System.out.println(localPathList);
+//            System.out.println(localPathList);
             // if match found then no need to traverse more till depth
             return count+1;
         }
@@ -121,18 +121,25 @@ public class Source {
     // Driver program
     public static void main(String[] args)
     {
+        Scanner scanner = new Scanner(System.in);
+        int vertices = scanner.nextInt();
         // Create a sample graph
-        Source g = new Source(4);
-        g.addEdge(0, 1);
-        g.addEdge(0, 2);
-        g.addEdge(0, 3);
-        g.addEdge(2, 0);
-        g.addEdge(2, 1);
-        g.addEdge(1, 3);
-        // arbitrary source
-        int s = 2;
-        // arbitrary destination
-        int d = 3;
-        System.out.println(g.printAllPaths(s, d));
+        Source g = new Source(vertices);
+        for(int i=0;i<vertices;i++){
+            List<Integer> neighbours = new ArrayList<>();
+            String in = scanner.nextLine();
+            System.out.println(in);
+        }
+//        g.addEdge(0, 1);
+//        g.addEdge(0, 2);
+//        g.addEdge(0, 3);
+//        g.addEdge(2, 0);
+//        g.addEdge(2, 1);
+//        g.addEdge(1, 3);
+//        // arbitrary source
+//        int s = 2;
+//        // arbitrary destination
+//        int d = 3;
+//        System.out.println(g.printAllPaths(s, d));
     }
 }
