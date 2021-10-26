@@ -1,8 +1,8 @@
 # Table of Contents<br>
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
    -- [Graphs](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs)<br>
-      -- [AllPaths.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/AllPaths.java)<br>
       -- [GraphIsTree.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/GraphIsTree.java)<br>
+      -- [[Source.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/Source.java)](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/[Source.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/Source.java))<br>
    -- [Queue](https://github.com/cse001/Programming/tree/main/DataStructures/Queue)<br>
       -- [ToDoList.java](https://github.com/cse001/Programming/tree/main/DataStructures/Queue/ToDoList.java)<br>
    -- [SetsAndDictionaries](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries)<br>
@@ -42,5 +42,5 @@
    -- [Alg4_MergeSortReverse.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg4_MergeSortReverse.java)<br>
    -- [Alg5_QuickSort.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg5_QuickSort.java)<br>
    -- [Alg5_QuickSortOnNames.java](https://github.com/cse001/Programming/tree/main/Sorting/Alg5_QuickSortOnNames.java)<br>
-## [Source.java](https://github.com/cse001/Programming/tree/main/Source.java)<br>
+## [[Source.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/Source.java)](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/[Source.java](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs/Source.java))<br>
 ## [Test.java](https://github.com/cse001/Programming/tree/main/Test.java)<br>
