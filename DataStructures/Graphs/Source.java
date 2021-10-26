@@ -105,12 +105,28 @@ public class Source {
         int vertices = scanner.nextInt();
         // Create a sample graph
         Source g = new Source(vertices);
-        for(int i=0;i<=vertices;i++){
-            List<Integer> neighbours = new ArrayList<>();
+        int i=0;
+        while(scanner.hasNextLine()){
             String in = scanner.nextLine();
-
-            System.out.println(in);
+            Scanner sc = new Scanner(in);
+            List<Integer> list = new ArrayList<Integer>();
+            while (sc.hasNextInt()) {
+                list.add(sc.nextInt());
+            }
+            System.out.println(list);
+            i++;
         }
+        System.out.println(i);
+//        for(int i=0;i<=vertices;i++){
+//            List<Integer> neighbours = new ArrayList<>();
+//            String in = scanner.nextLine();
+//            Scanner sc = new Scanner(in);
+//            List<Integer> list = new ArrayList<Integer>();
+//            while (sc.hasNextInt()) {
+//                list.add(sc.nextInt());
+//            }
+//            System.out.println(in);
+//        }
 //        g.addEdge(0, 1);
 //        g.addEdge(0, 2);
 //        g.addEdge(0, 3);
