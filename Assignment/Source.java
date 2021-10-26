@@ -1,75 +1,46 @@
 package Assignment;
+
+// Java program for the above approach
 import java.util.*;
 
-public class Source {
-    private int vertexCount;
-    private static LinkedList<Integer> adj[];
-    Source(int vertexCount) {
-        this.vertexCount = vertexCount;
-        this.adj = new LinkedList[vertexCount];
-        for (int i = 0; i < vertexCount; ++i) {
-            adj[i] = new LinkedList<Integer>();
-        }
-    }
-    public void addEdge(int v, int w) {
-        if (!isValidIndex(v) || !isValidIndex(w)) {
-            return;
-        }
-        adj[v].add(w);
-        adj[w].add(v);
-    }
-    private boolean isValidIndex(int i) {
-        // Write code here
-        return i>=0;
-    }
-    private boolean isCyclic(int v, boolean visited[], int parent) {
-        // Write code here
-        visited[v] = true;
-        Integer i;
-        Iterator<Integer> it = adj[v].iterator();
-        while (it.hasNext())
-        {
-            i = it.next();
-            if (!visited[i])
-            {
-                if (isCyclic(i, visited, v))
-                    return true;
+class Source {
+    static PriorityQueue<Integer> minPriorityQueue;
+    static int k;
+
+    static List<Integer> getAllKthNumber(int arr[])
+    {
+        List<Integer> list = new ArrayList<>();
+        for (int val : arr) {
+            if (minPriorityQueue.size() < k)
+                minPriorityQueue.add(val);
+            else {
+                if (val > minPriorityQueue.peek()) {
+                    minPriorityQueue.poll();
+                    minPriorityQueue.add(val);
+                }
             }
-            else if (i != parent)
-                return true;
+            if (minPriorityQueue.size() >= k)
+                list.add(minPriorityQueue.peek());
+            else
+                list.add(-1);
         }
-        return false;
+        return list;
     }
-
-    public boolean isTree() {
-        // Write Code here
-        boolean visited[] = new boolean[vertexCount];
-        for (int i = 0; i < vertexCount; i++)
-            visited[i] = false;
-        if (isCyclic(0, visited, -1))
-            return false;
-        for (int u = 0; u < vertexCount; u++)
-            if (!visited[u])
-                return false;
-        return true;
-    }
-
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        // Get the number of nodes from the input.
-        int noOfNodes =  sc.nextInt();
-        // Get the number of edges from the input.
-        int noOfEdges = sc.nextInt();
-
-        Source graph = new Source(noOfNodes);
-        // Adding edges to the graph
-        for (int i = 0; i <noOfEdges; ++i) {
-            graph.addEdge(sc.nextInt(),sc.nextInt());
-        }
-        if (graph.isTree()) {
-            System.out.println("Yes");
-        } else {
-            System.out.println("No");
-        }
+    public static void main(String[] args)
+    {
+        minPriorityQueue = new PriorityQueue<>();
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int arr[] = new int[n];
+        k = scanner.nextInt();
+        int arr[] = { 1, 2, 3, 4, 5, 6 };
+        List<Integer> res = getAllKthNumber(arr);
+        for (int x : res)
+            if(x==-1){
+                System.out.println("None");
+            }
+        else{
+                System.out.println(k + " largest number is "+ x);
+            }
     }
 }
