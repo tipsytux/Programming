@@ -1,14 +1,11 @@
 package DataStructures.Graphs;
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-// Class name should be "Source",
-// otherwise solution won't be accepted
+
 import java.util.ArrayList;
 import java.util.List;
 
+// Class name should be "Source",
+// otherwise solution won't be accepted
 // A directed graph using
 // adjacency list representation
 public class Source {
@@ -119,15 +116,7 @@ public class Source {
                 i++;
             }
         }
-//        g.addEdge(0, 1);
-//        g.addEdge(0, 2);
-//        g.addEdge(0, 3);
-//        g.addEdge(2, 0);
-//        g.addEdge(2, 1);
-//        g.addEdge(1, 3);
-//        // arbitrary source
         int s = 0;
-//        // arbitrary destination
         int d = vertices-1;
         System.out.println(g.printAllPaths(s, d));
     }
