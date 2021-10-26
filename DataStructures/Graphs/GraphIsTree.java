@@ -57,7 +57,14 @@ public class GraphIsTree {
     }
 
     private static boolean check(int[] degree, int n) {
-        
-        return false;
+        // Find sum of all degrees
+        int deg_sum = 0;
+        for (int i = 0; i < n; i++)
+        {
+            deg_sum += degree[i];
+        }
+
+        // Graph is tree if sum is equal to 2(n-1)
+        return (2 * (n - 1) == deg_sum);
     }
 }
