@@ -1,9 +1,8 @@
 package Assignment;
 
-// Java program for the above approach
 import java.util.*;
 
-class Source {
+class KthLargestInStream {
     static PriorityQueue<Integer> minPriorityQueue;
     static int k;
 
@@ -33,7 +32,9 @@ class Source {
         int n = scanner.nextInt();
         int arr[] = new int[n];
         k = scanner.nextInt();
-        int arr[] = { 1, 2, 3, 4, 5, 6 };
+        for(int i = 0; i < n; i++){
+            arr[i] = scanner.nextInt();
+        }
         List<Integer> res = getAllKthNumber(arr);
         for (int x : res)
             if(x==-1){
