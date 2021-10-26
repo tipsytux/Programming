@@ -109,24 +109,16 @@ public class Source {
         while(scanner.hasNextLine()){
             String in = scanner.nextLine();
             Scanner sc = new Scanner(in);
-            List<Integer> list = new ArrayList<Integer>();
-            while (sc.hasNextInt()) {
-                list.add(sc.nextInt());
+            if(!in.equals("")){
+                while (sc.hasNextInt()) {
+                    int value = sc.nextInt();
+                    if(value!=-1){
+                        g.addEdge(i, value);
+                    }
+                }
+                i++;
             }
-            System.out.println(list);
-            i++;
         }
-        System.out.println(i);
-//        for(int i=0;i<=vertices;i++){
-//            List<Integer> neighbours = new ArrayList<>();
-//            String in = scanner.nextLine();
-//            Scanner sc = new Scanner(in);
-//            List<Integer> list = new ArrayList<Integer>();
-//            while (sc.hasNextInt()) {
-//                list.add(sc.nextInt());
-//            }
-//            System.out.println(in);
-//        }
 //        g.addEdge(0, 1);
 //        g.addEdge(0, 2);
 //        g.addEdge(0, 3);
@@ -134,9 +126,9 @@ public class Source {
 //        g.addEdge(2, 1);
 //        g.addEdge(1, 3);
 //        // arbitrary source
-//        int s = 2;
+        int s = 0;
 //        // arbitrary destination
-//        int d = 3;
-//        System.out.println(g.printAllPaths(s, d));
+        int d = vertices-1;
+        System.out.println(g.printAllPaths(s, d));
     }
 }
