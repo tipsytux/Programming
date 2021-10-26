@@ -24,16 +24,49 @@ public class Source {
 
     private boolean isValidIndex(int i) {
         // Write code here
+        
+        return true;
     }
 
     private boolean isCyclic(int v, boolean visited[], int parent) {
         // Write code here
+        // Mark the current node as visited
+        visited[v] = true;
+        Integer i;
+
+        // Recur for all the vertices adjacent to this vertex
+        Iterator<Integer> it = adj[v].iterator();
+        while (it.hasNext())
+        {
+            i = it.next();
+
+            // If an adjacent is not visited, then recur for
+            // that adjacent
+            if (!visited[i])
+            {
+                if (isCyclic(i, visited, v))
+                    return true;
+            }
+
+            // If an adjacent is visited and not parent of
+            // current vertex, then there is a cycle.
+            else if (i != parent)
+                return true;
+        }
         return false;
     }
 
     public boolean isTree() {
         // Write Code here
-        return false;
+        boolean visited[] = new boolean[vertexCount];
+        for (int i = 0; i < vertexCount; i++)
+            visited[i] = false;
+        if (isCyclic(0, visited, -1))
+            return false;
+        for (int u = 0; u < vertexCount; u++)
+            if (!visited[u])
+                return false;
+        return true;
     }
 
     public static void main(String args[]) {
