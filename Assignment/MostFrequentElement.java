@@ -5,7 +5,15 @@ import java.util.*;
 public class MostFrequentElement {
 
     public static int mostFrequentElement(int[] arr) {
-
+        Map<Integer,Integer> countMap = new HashMap<Integer,Integer>();
+        for(int a : arr){
+            if(countMap.containsKey(a)){
+                countMap.put(a,countMap.get(a)+1);
+            }else{
+                countMap.put(a,1);
+            }
+        }
+        System.out.println(countMap);
         // Write code here
         return -1;
     }
