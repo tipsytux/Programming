@@ -66,7 +66,7 @@ public class Source {
 
     // Prints all paths from
     // 's' to 'd'
-    public void printAllPaths(int s, int d)
+    public int printAllPaths(int s, int d)
     {
         boolean[] isVisited = new boolean[v];
         ArrayList<Integer> pathList = new ArrayList<>();
@@ -75,7 +75,7 @@ public class Source {
         pathList.add(s);
 
         // Call recursive utility
-        printAllPathsUtil(s, d, isVisited, pathList);
+        return printAllPathsUtil(s, d, isVisited, pathList,0);
     }
 
     // A recursive function to print
@@ -105,7 +105,7 @@ public class Source {
                 // store current node
                 // in path[]
                 localPathList.add(i);
-                printAllPathsUtil(i, d, isVisited, localPathList,count);
+                count = printAllPathsUtil(i, d, isVisited, localPathList,count);
 
                 // remove current node
                 // in path[]
@@ -133,9 +133,6 @@ public class Source {
         int s = 2;
         // arbitrary destination
         int d = 3;
-        System.out.println(
-                "Following are all different paths from "
-                        + s + " to " + d);
-        g.printAllPaths(s, d);
+        System.out.println(g.printAllPaths(s, d));
     }
 }
