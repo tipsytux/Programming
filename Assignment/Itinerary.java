@@ -2,14 +2,14 @@ package Assignment;
 
 import java.util.*;
 
-public class Source {
+public class Itinerary {
 
     public static void findItinerary(Map<String, String> tickets) {
         Map<String, String> reverseMap = new HashMap<String, String>();
-        for (Map.Entry<String,String> entry: dataSet.entrySet())
+        for (Map.Entry<String,String> entry: tickets.entrySet())
             reverseMap.put(entry.getValue(), entry.getKey());
         String start = null;
-        for (Map.Entry<String,String> entry: dataSet.entrySet())
+        for (Map.Entry<String,String> entry: tickets.entrySet())
         {
             if (!reverseMap.containsKey(entry.getKey()))
             {
@@ -22,17 +22,13 @@ public class Source {
             System.out.println("Invalid Input");
             return;
         }
-
-        // Once we have starting point, we simple need to go next, next
-        // of next using given hash map
-        String to = dataSet.get(start);
+        String to = tickets.get(start);
         while (to != null)
         {
-            System.out.print(start +  "->" + to + ", ");
+            System.out.println(start +  "->" + to);
             start = to;
-            to = dataSet.get(to);
+            to = tickets.get(to);
         }
-    }
     }
 
     public static void main(String[] args) {
