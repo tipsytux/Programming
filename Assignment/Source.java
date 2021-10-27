@@ -9,9 +9,29 @@ public class Source {
         // Write code here
         int i = 0;
         int j = 0;
-        while(i<n && j<n){
-            
+        int current = 0;
+        while(i<n && j<n && current<=n-1){
+            if (current==n || current==n-1){
+                if(arr1[i] < arr2[j]){
+                    retval+=arr1[i];
+                    i++;
+                }
+                else{
+                    retval+=arr2[j];
+                    j++;
+                }
+            }
+            else{
+                if(arr1[i] < arr2[j]){
+                    i++;
+                }
+                else{
+                    j++;
+                }
+            }
+            current++;
         }
+        retval/=retval;
         return retval;
     }
 
