@@ -5,6 +5,7 @@
    -- [SortNearlySortedArray.java](https://github.com/cse001/Programming/tree/main/Assignment/SortNearlySortedArray.java)<br>
    -- [[[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java)](https://github.com/cse001/Programming/tree/main/Assignment/[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java))](https://github.com/cse001/Programming/tree/main/Assignment/[[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java)](https://github.com/cse001/Programming/tree/main/Assignment/[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java)))<br>
    -- [SumBetweenPandQ.java](https://github.com/cse001/Programming/tree/main/Assignment/SumBetweenPandQ.java)<br>
+   -- [[SymmetricPairs.java](https://github.com/cse001/Programming/tree/main/Assignment/SymmetricPairs.java)](https://github.com/cse001/Programming/tree/main/Assignment/[SymmetricPairs.java](https://github.com/cse001/Programming/tree/main/Assignment/SymmetricPairs.java))<br>
    -- [UGIsTree.java](https://github.com/cse001/Programming/tree/main/Assignment/UGIsTree.java)<br>
 ## [DataStructures](https://github.com/cse001/Programming/tree/main/DataStructures)<br>
    -- [Graphs](https://github.com/cse001/Programming/tree/main/DataStructures/Graphs)<br>
@@ -15,7 +16,7 @@
    -- [SetsAndDictionaries](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries)<br>
       -- [Anagrams.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/Anagrams.java)<br>
       -- [FirstUniqueCharacter.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/FirstUniqueCharacter.java)<br>
-      -- [SymmetricPairs.java](https://github.com/cse001/Programming/tree/main/DataStructures/SetsAndDictionaries/SymmetricPairs.java)<br>
+      -- [[SymmetricPairs.java](https://github.com/cse001/Programming/tree/main/Assignment/SymmetricPairs.java)](https://github.com/cse001/Programming/tree/main/Assignment/[SymmetricPairs.java](https://github.com/cse001/Programming/tree/main/Assignment/SymmetricPairs.java))<br>
    -- [Stack](https://github.com/cse001/Programming/tree/main/DataStructures/Stack)<br>
       -- [BookReading.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/BookReading.java)<br>
       -- [Contains.java](https://github.com/cse001/Programming/tree/main/DataStructures/Stack/Contains.java)<br>
