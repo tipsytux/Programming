@@ -10,8 +10,8 @@ public class Source {
         int i = 0;
         int j = 0;
         int current = 0;
-        while(i<n && j<n && current<=n-1){
-            if (current==n || current==n-1){
+        while(i<n && j<n && current<=n+1){
+            if (current==n || current==n+1){
                 if(arr1[i] < arr2[j]){
                     retval+=arr1[i];
                     i++;
