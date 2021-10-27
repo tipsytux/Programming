@@ -4,6 +4,7 @@
    -- [Itinerary.java](https://github.com/cse001/Programming/tree/main/Assignment/Itinerary.java)<br>
    -- [KthLargestInStream.java](https://github.com/cse001/Programming/tree/main/Assignment/KthLargestInStream.java)<br>
    -- [MostFrequentElement.java](https://github.com/cse001/Programming/tree/main/Assignment/MostFrequentElement.java)<br>
+   -- [PivotedBinarySearch.java](https://github.com/cse001/Programming/tree/main/Assignment/PivotedBinarySearch.java)<br>
    -- [SortNearlySortedArray.java](https://github.com/cse001/Programming/tree/main/Assignment/SortNearlySortedArray.java)<br>
    -- [[[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java)](https://github.com/cse001/Programming/tree/main/Assignment/[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java))](https://github.com/cse001/Programming/tree/main/Assignment/[[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java)](https://github.com/cse001/Programming/tree/main/Assignment/[Source.java](https://github.com/cse001/Programming/tree/main/Assignment/Source.java)))<br>
    -- [SumBetweenPandQ.java](https://github.com/cse001/Programming/tree/main/Assignment/SumBetweenPandQ.java)<br>
