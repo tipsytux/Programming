@@ -5,34 +5,54 @@ import java.util.*;
 public class Source {
 
     public static int median(int[] arr1, int[] arr2 , int n){
-        int retval=-1;
-        // Write code here
         int i = 0;
         int j = 0;
-        int current = 0;
-        while(i<n && j<n && current<=n+1){
-            if (current==n || current==n+1){
-                if(arr1[i] < arr2[j]){
-                    retval+=arr1[i];
-                    i++;
-                }
-                else{
-                    retval+=arr2[j];
-                    j++;
-                }
+        int count;
+        int m1 = -1, m2 = -1;
+
+        /* Since there are 2n elements, median will
+           be average of elements at index n-1 and
+           n in the array obtained after merging ar1
+           and ar2 */
+        for (count = 0; count <= n; count++)
+        {
+            /* Below is to handle case where all
+              elements of ar1[] are smaller than
+              smallest(or first) element of ar2[] */
+            if (i == n)
+            {
+                m1 = m2;
+                m2 = ar2[0];
+                break;
             }
-            else{
-                if(arr1[i] < arr2[j]){
-                    i++;
-                }
-                else{
-                    j++;
-                }
+
+            /* Below is to handle case where all
+               elements of ar2[] are smaller than
+               smallest(or first) element of ar1[] */
+            else if (j == n)
+            {
+                m1 = m2;
+                m2 = ar1[0];
+                break;
             }
-            current++;
+            /* equals sign because if two
+               arrays have some common elements */
+            if (ar1[i] <= ar2[j])
+            {
+                /* Store the prev median */
+                m1 = m2;
+                m2 = ar1[i];
+                i++;
+            }
+            else
+            {
+                /* Store the prev median */
+                m1 = m2;
+                m2 = ar2[j];
+                j++;
+            }
         }
-        retval/=retval;
-        return retval;
+        return (m1 + m2)/2;
     }
 
     public static void main(String[] args) {
