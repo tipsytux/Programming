@@ -24,8 +24,16 @@ public class Source {
                 }
             }
         }
-        Arrays.sort(new ArrayList[]{solution});
-        for()
+        int i,j;
+        if(solution.get(0) < solution.get(1)){
+            i=solution.get(0);
+            j=solution.get(1);
+        }
+        else{
+            i=solution.get(1);
+            j=solution.get(0);
+        }
+        System.out.println(i + " " + j);
     }
 
     public static void main(String[] args) {
