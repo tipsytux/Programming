@@ -5,31 +5,27 @@ import java.util.*;
 public class Source {
 
     public static void printElementInAllRows(int mat[][]) {
+        int M = mat.length;
+        int N = mat[0].length;
         Map<Integer,Integer> mp = new HashMap<>();
-
-        // initialize 1st row elements with value 1
+        ArrayList<Integer> solution = new ArrayList<>();
         for (int j = 0; j < N; j++)
             mp.put(mat[0][j],1);
-
-        // traverse the matrix
         for (int i = 1; i < M; i++)
         {
             for (int j = 0; j < N; j++)
             {
-                // If element is present in the map and
-                // is not duplicated in current row.
                 if (mp.get(mat[i][j]) != null && mp.get(mat[i][j]) == i)
                 {
-                    // we increment count of the element
-                    // in map by 1
                     mp.put(mat[i][j], i + 1);
-
-                    // If this is last row
                     if (i == M - 1)
-                        System.out.print(mat[i][j] + " ");
+                        solution.add(mat[i][j]);
+//                        System.out.print(mat[i][j] + " ");
                 }
             }
         }
+        Arrays.sort(new ArrayList[]{solution});
+        for()
     }
 
     public static void main(String[] args) {
