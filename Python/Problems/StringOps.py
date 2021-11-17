@@ -21,6 +21,6 @@ for i in range(len(input_str)):
         message1 = message1 + input_str[i]
     else:
         message2 = message2 + input_str[i]
-message1.strip().strip("#")
-message2.strip().strip("#")
+message1=message1.strip().rstrip("#")
+message2=message2.strip().rstrip("#")
 print(f"{message1},{message2}")
