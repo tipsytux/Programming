@@ -12,13 +12,15 @@
 # 10 seconds
 
 import ast,sys
-input_str = sys.stdin.read()
+input_str = input()
 #Type your code here
 message1=""
 message2=""
 for i in range(len(input_str)):
     if i%2 == 0:
-        message2 = message2 + input_str[i]
-    else:
         message1 = message1 + input_str[i]
-print(message1, message2)
+    else:
+        message2 = message2 + input_str[i]
+message1.strip().strip("#")
+message2.strip().strip("#")
+print(f"{message1},{message2}")
