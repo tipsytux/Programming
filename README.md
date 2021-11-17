@@ -58,4 +58,5 @@
    -- [Test.java](https://github.com/cse001/Programming/tree/main/Java/Test.java)<br>
 ## [Python](https://github.com/cse001/Programming/tree/main/Python)<br>
 -- [[Problems](https://github.com/cse001/Programming/tree/main/Java/Problems)](https://github.com/cse001/Programming/tree/main/Java/[Problems](https://github.com/cse001/Programming/tree/main/Java/Problems))<br>
--- [StringOps.py](https://github.com/cse001/Programming/tree/main/Python/Problems/StringOps.py)<br>
+   -- [StringOps.py](https://github.com/cse001/Programming/tree/main/Python/Problems/StringOps.py)<br>
+-- [Test.py](https://github.com/cse001/Programming/tree/main/Python/Test.py)<br>
