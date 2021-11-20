@@ -1,20 +1,12 @@
 class A:
-    x = 10
-
-    def __init__(self, y, z):
+    def __init__(self, x=1):
+        self.x = x
+class B(A):
+    def __init__(self,y =2):
+        super().__init__()
         self.y = y
-        self.z = z
 
-    def update_y(self):
-        self.y = self.y * self.x
-
-    @classmethod
-    def update_z(cls):
-        self.z = self.z + 20
-
-
-A1 = A(3, 4)
-A2 = A(5, 6)
-
-A2.update_z()
-print(A1.y + A2.z)
+def main():
+    b = B()
+    print(b.x,b.y)
+main()
