@@ -50,3 +50,19 @@ input_str = "['All','you','have','to','fear','is','fear','itself']"
 input_list = ast.literal_eval(input_str)
 answer = reduce(lambda x, y: x + " " + y, input_list)
 print(answer)
+
+# You are given a list of numbers such as input_list = [31, 63, 76, 89].
+# Find and print the largest number in input_list using the reduce() function.
+input_str = "[65,76,87,23,12,90,99]"
+input_list = ast.literal_eval(input_str)
+
+
+def compare(x,y):
+    if x > y:
+        return x
+    else:
+        return y
+
+
+answer = reduce(compare, input_list)
+print(answer)
